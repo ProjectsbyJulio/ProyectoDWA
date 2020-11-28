@@ -2,8 +2,7 @@ $darkColor: #1e2022;
 $buttonHighColor: #52616b;
 $buttonColor: #c9d6df;
 $lightColor: #f0f5f9;
-//images 
-$farm1: '';
+$compl1:#6914FF;
 //backgrounds
 .darkBg {
     background-color: $darkColor;
@@ -12,7 +11,6 @@ $farm1: '';
     background-color: $lightColor;
 }
 
-.farm1{
-    max-width: 100%;
-    background-image: $farm1;
+.footer-bg{
+    background-color: $compl1;
 }

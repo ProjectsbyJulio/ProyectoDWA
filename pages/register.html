@@ -13,7 +13,7 @@
 <body>
     
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
         <div class="container">
             <a class="navbar-brand" href="../index.html">
                 <img src="../assets/img/brand.png" width="30" height="30" class="d-inline-block align-top mr-3" alt="Logo de la tienda" loading="lazy">
@@ -46,8 +46,105 @@
                 </div>
         </div>       
     </nav>
-
-
+    <div class="container mt-3">
+        <div class="row justify-content-center">
+            <div class="col-xl-8 col-lg-8 col-md-12 shadow-lg bg-light">
+                <div class="row justify-content-center">
+                    <div class="col-sm-9">
+                        <h2 class="text-center mt-4 mb-4">Registrate Para Ordenar Tus Productos</h2>
+                    </div>                   
+                </div>
+                <div class="row justify-content-center">
+                    <form action="registro.php" method="post" class="mt-5 mr-2 ml-2">
+                        <div class="form-group row">
+                            <label class="text-sm-left text-lg-right text-xl-right col-form-label col-sm-4 font-weight-bold" for="name" >Nombre</label>
+                            <div class="col-sm-8">
+                                <input class="form-control" type="text" id="name" placeholder="Escribe tu nombre" aria-describedby="namehelp" required>
+                                <small id="namehelp" class="form-text text-muted">Debes escribir tu nombre completo</small>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="text-sm-left text-lg-right text-xl-right col-form-label col-sm-4 font-weight-bold" for="user" >Usuario</label>
+                            <div class="col-sm-8">
+                                <input class="form-control" type="text" id="user" placeholder="Elija su nombre de usuario" aria-describedby="userhelp" required>
+                                <small id="userhelp" class="form-text text-muted">Ingrese un usuario (sin espacios) para el logueo</small>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="text-sm-left text-lg-right text-xl-right col-form-label col-sm-4 font-weight-bold" for="pass" >Password</label>
+                            <div class="col-sm-8">
+                                <input class="form-control" type="password" id="pass" placeholder="Ingrese una contraseña" aria-describedby="passhelp" required minlength="8" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&amp;*_=+-]).{8,32}$">
+                                <small id="passhelp" class="form-text text-muted">Contraseña mínimo 8 caracteres, incluir números y mayúsculas</small>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="text-sm-left text-lg-right text-xl-right col-form-label col-sm-4 font-weight-bold" for="gender" >Sexo</label>
+                            <div class="col-sm-8">
+                                <select class="form-control" required>
+                                    <option value="m" selected="">Masculino</option>
+                                    <option value="f">Femenino</option>
+                                    <option value="na">Otro</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row"><label class="text-sm-left text-lg-right text-xl-right col-form-label col-sm-4 font-weight-bold" for="address" >Dirección</label>
+                            <div class="col-sm-8">
+                                <input class="form-control" type="text" id="address" placeholder="Escribe tu dirección completa">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="text-sm-left text-lg-right text-xl-right col-form-label col-sm-4 font-weight-bold" for="phone" >Teléfono</label>
+                            <div class="col-sm-8">
+                                <input class="form-control" type="text" id="phone" maxlength="8" placeholder="77777777">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="text-sm-left text-lg-right text-xl-right col-form-label col-sm-4 font-weight-bold" for="bio">Bio</label>
+                            <div class="col-sm-8">
+                                <textarea class="form-control" id="bio" maxlength="120" placeholder="Descríbete a tí mismo en unas líneas" rows="4"></textarea>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-primary bg-warning border-warning shadow mt-5 mb-5 text-dark" id="btnReg" type="submit">Registrarme</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <footer class="bg-dark text-white">
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-sm mb-5">
+              <h2 class="mt-5 text-center">Mapa del sitio</h2><br>
+              <ul class="text-center list-unstyled">
+                <li>
+                  <a href="../index.html" class="text-white">Inicio</a>
+                </li>
+                <li>
+                  <a href="catalog.html"class="text-white">Catálogo</a>
+                </li>
+                <li>
+                  <a href="contact.html"class="text-white">Contacto</a>
+                </li>
+              </ul>         
+            </div>
+            <div class="col-sm mb-5">
+              <h2 class="mt-5 text-center">Tienda de Lácteos <img src="../assets/img/brand.png" width="30" height="30" class="d-inline-block" alt="Logo de la tienda" loading="lazy"></h2><br>
+              <address class="text-center">
+                Proyecto Diseño Web Adaptable<br>        
+                Autor: Julio Eduardo Canizalez Salinas<br>
+                <a href="#"><img src="../assets/img/social/fbwhite.png" width="20" height="20" class="align-top mr-1" alt="Facebook logo" loading="lazy"></a>
+                <a href="#"><img src="../assets/img/social/igwhite.png" width="20" height="20" class="align-top mr-1" alt="Instagram logo" loading="lazy"></a>
+                <a href="#"><img src="../assets/img/social/twwhite.png" width="20" height="20" class="align-top mr-1" alt="Twitter logo" loading="lazy"></a>
+                <a href="#"><img src="../assets/img/social/pinwhite.png" width="20" height="20" class="align-top mr-1" alt="Pinterest logo" loading="lazy"></a>
+              </address>
+              
+            </div>
+          </div>
+        </div>
+    </footer>
     <!-- jQuery and JS bundle w/ Popper.js -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
