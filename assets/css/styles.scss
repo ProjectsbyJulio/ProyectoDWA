@@ -1,0 +1,18 @@
+$darkColor: #1e2022;
+$buttonHighColor: #52616b;
+$buttonColor: #c9d6df;
+$lightColor: #f0f5f9;
+//images 
+$farm1: '';
+//backgrounds
+.darkBg {
+    background-color: $darkColor;
+}
+.lightBg {
+    background-color: $lightColor;
+}
+
+.farm1{
+    max-width: 100%;
+    background-image: $farm1;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "proyectodwa",
+  "version": "1.0.0",
+  "description": "Ecommerce site",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliocanizalez/ProyectoDWA.git"
+  },
+  "author": "Julio Canizalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliocanizalez/ProyectoDWA/issues"
+  },
+  "homepage": "https://github.com/juliocanizalez/ProyectoDWA#readme"
+}
