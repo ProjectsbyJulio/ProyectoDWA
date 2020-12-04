@@ -1,3 +1,3 @@
 # ProyectoDWA
 
-[Ver progreso](https://juliocanizalez.github.io/ProyectoDWA/)
+[Ver Sitio](https://juliocanizalez.github.io/ProyectoDWA/)
