@@ -13,7 +13,7 @@
 <body>
     
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top shadow">
         <div class="container">
             <a class="navbar-brand" href="../index.html">
                 <img src="../assets/img/brand.png" width="30" height="30" class="d-inline-block align-top mr-3" alt="Logo de la tienda" loading="lazy">
@@ -49,8 +49,38 @@
         </div>       
     </nav>
 
+    <div class="container mt-5 entry">
+      <section class="entry__container">
+        <h2>Inicia Sesión</h2>
+        <section class="entry__container--left">
+            <img src="../assets/img/login.svg" alt="Login illustrative picture" height="80%" width="80%"/>
+        </section>
+        <section class="entry__container--right">
+            <form class="entry__container--form" action="index.html">
+                <input class="input" type="text" name="email" placeholder="Correo" required>
+                <input class="input" type="password" name="password" placeholder="Contraseña" required>
+                <button type="submit" class="button">Iniciar sesión</button>
+                <div class="entry__container--remember-me">
+                    <label>
+                        <input class="mr-1" type="checkbox" name="" id="cbox" value="">Recuérdame
+                    </label>
+                    <a href="#">Olvidé mi contraseña</a>
+                </div>
+            </form>
+            <section class="entry__container--social-media">
+                <div>
+                    <img src="../assets/img/social/g_logo.png" alt="Google"><a href="">Inicia sesión con Google</a>
+                </div>
+                <div>
+                    <img src="../assets/img/social/t_logo.png" alt="Twitter"><a href="">Inicia sesión con Twitter</a>
+                </div>
+            </section>
+            <p class="entry__container--register">¿No tienes ninguna cuenta? <a href="register.html">Regístrate</a></p>
+        </section>           
+      </section>
+    </div>
     <!--footer-->
-    <footer class="bg-dark text-white">
+    <footer class="bg-black text-white">
         <div class="container mt-5">
           <div class="row">
             <div class="col-sm mb-5">
@@ -83,7 +113,9 @@
         </div>
     </footer>
     <!-- jQuery and JS bundle w/ Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script defer src="../assets/js/cart.js"></script>
 </body>
 </html>

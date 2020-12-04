@@ -14,7 +14,7 @@
 <body>
 
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top shadow">
         <div class="container">
             <a class="navbar-brand" href="index.html">
                 <img src="assets/img/brand.png" width="30" height="30" class="d-inline-block align-top mr-3" alt="Logo de la tienda" loading="lazy">
@@ -57,8 +57,18 @@
               <div class="carousel-item active" data-interval="5000">
                 <img src="assets/img/slides/1.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption">
-                  <h5>sdfsdfs</h5>
-                  <p></p>
+                  <div class="container" class="pt-5">
+                    <div class="bg-black text-center">
+                        <br>
+                        <img src="assets/img/brand.png"width:310px; height:130px;">
+                        <br>
+                        <h1 class="text-white font-weight-bold">Bienvenido a Tienda de Lácteos</h1>
+                        <h4 class="text-white">Aquí encontrarás los más
+                        <span class="text-warning">FINOS </span> y
+                        <span class="text-warning">FRESCOS </span>Ingredientes</h4>
+                        <br>
+                    </div>
+                </div>
                 </div>
               </div>
               <div class="carousel-item" data-interval="5000">
@@ -124,7 +134,7 @@
     </div>
     <!--Acerca de las granjas-->
     <div class="container mt-5">
-        <div class="row bg-dark text-white shadow">
+        <div class="row bg-black text-white shadow">
             <div class="col-md-6 mt-5 mb-5">
                 <img src="assets/img/vacas.jpg" class="img-fluid">
             </div>
@@ -187,11 +197,31 @@
             </div>          
         </div> 
     </div>
+
+    <!--Acerca de las granjas-->
+    <div class="container mt-5">
+      <div class="row bg-black text-white shadow">
+          <div class="col-md-6 mt-5 mb-5">
+              <img src="assets/img/productos-lacteos.jpg" class="img-fluid">
+          </div>
+          <div class="col-md-6 mt-5 mb-5">
+              <h3>Contacta con nosotros</h3>
+              <p class="mt-5 text-center text-md-left">
+                  Ofrecemos una gran variedad y precios especiales a nuestros clientes, contacta con nosotros para obtener precios especiales y ser parte de una red de clientes felices que aman los productos que tanta felicidad llevan a nuestros hogares
+              </p>
+              <div class="text-center">
+                <a href="pages/contact.html" class="btn btn-warning btn-sm text-dark shadow mt-4" role="button">Contactar</a>
+              </div>
+              
+          </div>
+      </div>
+  </div>
+
     <!--footer-->
-    <footer class="bg-dark text-white">
+    <footer class="bg-black text-white">
         <div class="container mt-5">
           <div class="row">
-            <div class="col-sm mt-5 mb-4">
+            <div class="col-sm mb-3">
               <h2 class="mt-5 text-center">Mapa del sitio</h2><br>
               <ul class="text-center list-unstyled">
                 <li>
@@ -201,11 +231,11 @@
                   <a href="pages/catalog.html" class="text-white">Catálogo</a>
                 </li>
                 <li>
-                  <a href="pages/contact.html" class="text-dark btn btn-light btn-sm">Contacto</a>
+                  <a href="pages/contact.html" class="text-white">Contacto</a>
                 </li>
               </ul>         
             </div>
-            <div class="col-sm mt-5 mb-4">
+            <div class="col-sm mb-3">
               <h2 class="mt-5 text-center">Tienda de Lácteos <img src="assets/img/brand.png" width="30" height="30" class="d-inline-block" alt="Logo de la tienda" loading="lazy"></h2><br>
               <address class="text-center">
                 Proyecto Diseño Web Adaptable<br>        
@@ -217,9 +247,6 @@
               </address>
               
             </div>
-            <div class="col-sm mt-5 mb-4">
-              <div id="myMap"></div>
-            </div>
           </div>
         </div>
     </footer>
@@ -228,8 +255,5 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script defer src="assets/js/cart.js"></script>
-    <!--googleMaps-->
-    <script src="assets/js/maps.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIA_zqjFMsJM_sxP9-6Pde5vVCTyJmUHM&callback=initMap"></script>
 </body>
 </html>

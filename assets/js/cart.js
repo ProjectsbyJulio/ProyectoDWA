@@ -1,3 +1,11 @@
+//Swal lib
+const swalButton = Swal.mixin({
+    customClass: {
+        confirmButton: 'btn btn-warning btb-sm text-dark'
+    },
+    buttonsStyling: false
+})
+//Elementos del carrito
 let carro = []
 const addToCartButtons = document.querySelectorAll('.addToCart')
 
@@ -26,6 +34,8 @@ function displayCart(){
         Swal.fire({
             icon: 'error',
             title: 'Tu carrito está vacío',
+            showCloseButton: true,
+            showConfirmButton: false,
             html: '<img src="/assets/img/emptycart.svg" height=200 width=200>'
         })
     } else {
@@ -37,10 +47,11 @@ function displayCart(){
         productos += `<br><br>Total: \t\t\t$ ${totalImprimir}`
         
         console.log(productos)
-        Swal.fire({
+        swalButton.fire({
             title: 'Elementos en tu Carrito:',
             html: `<pre>${productos}</pre>`,
-            showCloseButton: true
+            showCloseButton: true,
+            confirmButtonText:`Comprar`
         })
     }    
 }
@@ -58,3 +69,4 @@ function displayMessage(){
 function updateCart(){
     document.getElementById('counter').innerHTML = carro.length
 }
+
