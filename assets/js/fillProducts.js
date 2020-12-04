@@ -9,6 +9,8 @@ const ID_OTRO = 'otabla'
 const ID_LECHE = 'ltabla'
 const ID_YOGURT = 'ytabla'
 
+
+
 function fillCatalog(array, id){
     //Llenando quesos
     let productos =  document.getElementById(id)
@@ -19,9 +21,9 @@ function fillCatalog(array, id){
                         <img src="${array[i].url}" class="card-img-top">
                         <div class="card-body">
                             <p class="card-text text-muted"> ${array[i].name}</p>
-                            <h5 class="card-title">$ ${parseFloat(array[i].price).toFixed(2)}</h5>
+                            <h5 class="card-title ">$ <div class="precio d-inline">${parseFloat(array[i].price).toFixed(2)}</div></h5>
                             <div class="text-center mt-4">
-                                <a class="btn btn-warning btn-sm shadow" onclick='addToCart()'>Añadir al carro</a>
+                                <button class="btn btn-warning btn-sm shadow addToCart">Añadir al carro</button>
                             </div>
                         </div>
                     </div>`
