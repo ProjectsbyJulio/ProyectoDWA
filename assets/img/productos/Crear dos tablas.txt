@@ -1,0 +1,21 @@
+Crear dos tablas
+
+tabla persona
+tipo 
+nombre
+descripcion
+telefono
+correo
+
+todos de tipo varchar
+
+tabla inventario
+fecha 
+nombre -- varchar
+concepto -- varchar
+cantidad -- int
+costoUnitario -- double
+tipo -- int
+total -- double
+
+solamente esas dos
