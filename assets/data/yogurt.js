@@ -43,14 +43,14 @@ let yogurt = [
     },
     {
         "id":9,
-        "name": "4 Pack Yogurt Líquido YES",
+        "name": "4 Pack Yogurt YES",
         "url": "../assets/img/productos/ypack4.jpg",
         "price": 1.99      
         
     },
     {
         "id":10,
-        "name": "12 Pack Yogurt Líquido COLUN",
+        "name": "12 Pack Yogurt",
         "url": "../assets/img/productos/ypack12.jpeg",
         "price": 2.49         
     }

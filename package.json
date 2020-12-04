@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/juliocanizalez/ProyectoDWA/issues"
   },
-  "homepage": "https://github.com/juliocanizalez/ProyectoDWA#readme"
+  "homepage": "https://github.com/juliocanizalez/ProyectoDWA#readme",
+  "dependencies": {
+    "sweetalert2": "^10.11.1"
+  }
 }

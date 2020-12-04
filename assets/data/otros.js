@@ -1,16 +1,16 @@
 let otros = [
     {
-        "name": "1/4 de botella de crema - Lactolac",
+        "name": "1/4 botella de crema",
         "url": "../assets/img/productos/cuartocrema.jpg",
         "price": 0.45      
     },
     {
-        "name": "1/2 botella de crema - Lactolac",
+        "name": "1/2 botella de crema",
         "url": "../assets/img/productos/mediacrema.jpg",
         "price": 0.90      
     },
     {
-        "name": "1 botella de crema - Lactolac",
+        "name": "1 botella de crema",
         "url": "../assets/img/productos/unacrema.jpg",
         "price": 1.80      
     },
@@ -20,7 +20,7 @@ let otros = [
         "price": 1.32       
     },
     {
-        "name": "Requesón bajo en grasa 5 lbs",
+        "name": "Requesón 5 lbs",
         "url": "../assets/img/productos/requeson.jpg",
         "price": 3.45     
     },

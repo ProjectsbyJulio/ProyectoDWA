@@ -1,13 +1,13 @@
 let leche = [
     {
-        "name": "1 Litro de Leche entera - Salud",
+        "name": "Leche entera Litro - Salud",
         "url": "../assets/img/productos/lenteraS.jpg",
         "price": 1.60
 
         
     },
     {
-        "name": "1 Litro de Leche semi-descremada - Salud",
+        "name": "Leche semidescremada",
         "url": "../assets/img/productos/lsemiS.jpg",
         "price": 1.60
 
@@ -35,28 +35,28 @@ let leche = [
         
     },
     {
-        "name": "1 Litro de Leche entera - Dos Pinos",
+        "name": "Leche entera - Dos Pinos",
         "url": "../assets/img/productos/lenteraD.webp",
         "price": 1.60
 
         
     },
     {
-        "name": "1 Litro de Leche semi-descremada - Dos Pinos",
+        "name": "Leche semidescremada",
         "url": "../assets/img/productos/lsemiD.jpg",
         "price": 1.60
 
         
     },
     {
-        "name": "1 Litro de Leche descremada - Dos Pinos",
+        "name": "Leche descremada - Dos Pinos",
         "url": "../assets/img/productos/ldescremadaD.jpg",
         "price": 1.60
 
         
     },
     {
-        "name": "1 Litro de Leche deslactosada - Dos Pinos",
+        "name": "Leche deslactosada - Dos Pinos",
         "url": "../assets/img/productos/ldeslactosadaD.png",
         "price": 1.60
 
