@@ -1,7 +1,7 @@
 //Swal lib
 const swalButton = Swal.mixin({
     customClass: {
-        confirmButton: 'btn btn-warning btb-sm text-dark'
+        confirmButton: 'btn btn-warning btn-sm text-dark'
     },
     buttonsStyling: false
 })
@@ -50,6 +50,7 @@ function displayCart(){
         swalButton.fire({
             title: 'Elementos en tu Carrito:',
             html: `<pre>${productos}</pre>`,
+            focusConfirm: false,
             showCloseButton: true,
             confirmButtonText:`Comprar`
         })
