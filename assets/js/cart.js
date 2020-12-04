@@ -53,6 +53,15 @@ function displayCart(){
             focusConfirm: false,
             showCloseButton: true,
             confirmButtonText:`Comprar`
+        }).then((result)=>{
+            if (result.isConfirmed) {
+                swalButton.fire({
+                    icon: 'success',
+                    title: '¡Compra realizada con éxito!',
+                    showCloseButton: true,
+                    showConfirmButton: false
+                })
+            }
         })
     }    
 }
