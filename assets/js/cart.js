@@ -21,24 +21,25 @@ function addToCart(event){
 
 function displayCart(){
     let total= 0
-    let productos ='<br>'
+    let productos ='<br><div class="text-left">'
     if(carro.length==0){
         Swal.fire({
             icon: 'error',
-            title: 'Tu carrito está vacío :(',
-            text: 'Intenta agregar asombrosos productos de nuestro catálogo :D'
+            title: 'Tu carrito está vacío',
+            html: '<img src="/assets/img/emptycart.svg" height=200 width=200>'
         })
     } else {
         carro.forEach((items)=>{
-            productos += `${items.item}<br>$ ${items.precio}<br>`
+            productos += `${items.item} \t$ ${items.precio}<br>`
             total += items.precio
         })
-        productos += `<br>Total: $ ${total}`
-
+        let totalImprimir = total.toFixed(2)
+        productos += `<br><br>Total: \t\t\t$ ${totalImprimir}`
+        
         console.log(productos)
         Swal.fire({
             title: 'Elementos en tu Carrito:',
-            html: productos,
+            html: `<pre>${productos}</pre>`,
             showCloseButton: true
         })
     }    

@@ -12,13 +12,13 @@ var quesos = [
         
     },
     {
-        "name": "Queso cheddar",
+        "name": "Queso cheddar libra",
         "url": "../assets/img/productos/cheddar.jpg",
         "price": 1.56     
         
     },
     {
-        "name": "Queso fresco",
+        "name": "Queso fresco libra",
         "url": "../assets/img/productos/fresco.jpg",
         "price": 1.11      
         
